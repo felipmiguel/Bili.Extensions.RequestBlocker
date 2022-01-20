@@ -68,7 +68,8 @@ namespace Bili.Extensions.RequestBlocker.Tests
             {
                 options.ConfigureHttpsDefaults(httpsOptions =>
                 {
-                    httpsOptions.ClientCertificateMode = ClientCertificateMode.AllowCertificate;
+                    httpsOptions.ClientCertificateMode = ClientCertificateMode.RequireCertificate;
+                    httpsOptions.ClientCertificateValidation = (certificate, chain, sslErrors) => true;
                     httpsOptions.AllowAnyClientCertificate();
                 });
             });
