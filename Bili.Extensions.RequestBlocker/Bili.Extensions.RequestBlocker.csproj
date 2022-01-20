@@ -5,6 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/felipmiguel/Bili.Extensions.RequestBlocker</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/felipmiguel/Bili.Extensions.RequestBlocker</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

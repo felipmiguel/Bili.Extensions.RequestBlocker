@@ -19,9 +19,18 @@ namespace Bili.Extensions.RequestBlocker
 
         public Task<bool> AllowRequestAsync(HttpContext context)
         {
-            if (context.Connection.ClientCertificate == null)
+            var certificate = context.Connection.ClientCertificate;
+            if (certificate == null)
                 return Task.FromResult(false);
-            return Task.FromResult(clientCertificateBlockerConfiguration.Value.AllowedThumbprints.Contains(context.Connection.ClientCertificate.Thumbprint));
+            if (clientCertificateBlockerConfiguration.Value.VerifyCertificate)
+            {
+                if (certificate.Verify() == false)
+                {
+                    return Task.FromResult(false);
+                }
+            }
+
+            return Task.FromResult(clientCertificateBlockerConfiguration.Value.AllowedThumbprints.Contains(certificate.Thumbprint));
         }
     }
 }
