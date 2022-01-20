@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bili.Extensions.RequestBlocker", "Bili.Extensions.RequestBlocker\Bili.Extensions.RequestBlocker.csproj", "{6A4584DF-5843-44E0-AF0F-0F4E50F67BA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bili.Extensions.RequestBlocker", "Bili.Extensions.RequestBlocker\Bili.Extensions.RequestBlocker.csproj", "{6A4584DF-5843-44E0-AF0F-0F4E50F67BA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWeb", "DemoWeb\DemoWeb.csproj", "{7B53D2BB-BFC5-4A21-92E1-296C7EA875D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWeb", "DemoWeb\DemoWeb.csproj", "{7B53D2BB-BFC5-4A21-92E1-296C7EA875D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bili.Extensions.RequestBlocker.Tests", "Bili.Extensions.RequestBlocker.Tests\Bili.Extensions.RequestBlocker.Tests.csproj", "{0477D956-A049-4CD0-A032-BF8266A6644B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bili.Extensions.RequestBlocker.Tests", "Bili.Extensions.RequestBlocker.Tests\Bili.Extensions.RequestBlocker.Tests.csproj", "{C39BF6A0-490F-4E49-A79B-FF57FE980568}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{7B53D2BB-BFC5-4A21-92E1-296C7EA875D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B53D2BB-BFC5-4A21-92E1-296C7EA875D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B53D2BB-BFC5-4A21-92E1-296C7EA875D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0477D956-A049-4CD0-A032-BF8266A6644B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0477D956-A049-4CD0-A032-BF8266A6644B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0477D956-A049-4CD0-A032-BF8266A6644B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0477D956-A049-4CD0-A032-BF8266A6644B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C39BF6A0-490F-4E49-A79B-FF57FE980568}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39BF6A0-490F-4E49-A79B-FF57FE980568}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39BF6A0-490F-4E49-A79B-FF57FE980568}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39BF6A0-490F-4E49-A79B-FF57FE980568}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
